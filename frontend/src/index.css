@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply md:max-w-[85%] max-w-full mx-auto p-4;
+}
