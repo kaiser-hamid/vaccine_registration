@@ -5,6 +5,11 @@ This is a vaccine system. People can request for vaccine schedule by submitting 
 Author: **Kaiser Hamid**  
 Date: **2024-10-12**
 
+## Requirements:
+
+- Server config same as laravel 11
+- Node version 18 or above
+
 ## Instructions:
 
 - There are two seperate projects. One is backend (Laravel API), another is frontend (Reactjs)
