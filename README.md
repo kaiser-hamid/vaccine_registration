@@ -19,7 +19,8 @@ Date: **2024-10-12**
 
   - Go to backend project and run **composer install**
   - Set .env values (QUEUE_CONNECTION, MAIL_MAILER, DB_CONNECTION along with its related configs, APP_TIMEZONE=Asia/Dhaka to send email at bd time)
-  - Run **php artisan migrate** and **php artisan serve**
+  - Run **php artisan migrate** and **php artisan db:seed**
+  - Run **php artisan serve**
   - Keep running **php artisan queue:work** and **php artisan schedule:work**
 
   For optimizing performance, I've followed some rules like, eager loading, indexing db columns, reduce the number of query in complex part like vaccinee distribution.
@@ -37,3 +38,19 @@ Date: **2024-10-12**
   - Adjust your endpoint URL from `/src/config/data.js`
   - Run `npm start`
   - Open your browser and navigate to `http://localhost:5173` or the port your project running on
+
+### Home page
+
+![App Homepage Screenshot](app-home.png)
+
+### Form page
+
+![App form Screenshot](app-form.png)
+
+### Search page - with data
+
+![App search with data Screenshot](app-search.png)
+
+### Search page - no data
+
+![App search without data Screenshot](app-search-no-data.png)
