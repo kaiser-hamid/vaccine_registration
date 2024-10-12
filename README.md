@@ -39,18 +39,12 @@ Date: **2024-10-12**
   - Run `npm start`
   - Open your browser and navigate to `http://localhost:5173` or the port your project running on
 
-### Home page
+# Screenshots
 
 ![App Homepage Screenshot](app-home.png)
 
-### Form page
-
 ![App form Screenshot](app-form.png)
 
-### Search page - with data
-
 ![App search with data Screenshot](app-search.png)
-
-### Search page - no data
 
 ![App search without data Screenshot](app-search-no-data.png)
